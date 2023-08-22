@@ -1,0 +1,30 @@
+name: Other tasks or issues
+description: Request for enhancements, add features, change in requirements, etc.
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      - When submitting issues to request for enhancements and other changes, you'll make our life simpler (and the fix will come sooner) if you follow the guidelines in this template.
+      - Write a descriptive issue title above.
+      - The golden rule is to **always open *one* issue for *one* bug**. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
+
+- type: textarea
+  attributes:
+    label: Issue, task, and/or requirements summary
+    description: |
+      Describe briefly for us to get a clear picture on what needs to be done, added, or changed.
+      You can include images or videos with drag and drop, and format code blocks or logs with <code>```</code> tags.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: The Nitty-Gritty Details
+    description: |
+      Describe all the possible details to further elaborate on what needs to be done, added, or changed.
+      You can include images or videos with drag and drop, and format code blocks or logs with <code>```</code> tags.
+  validations:
+    required: true
+
+
