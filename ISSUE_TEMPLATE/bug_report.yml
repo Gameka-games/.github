@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a bug in Gameka
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      - When reporting bugs, you'll make our life simpler (and the fix will come sooner) if you follow the guidelines in this template.
+      - Write a descriptive issue title above.
+      - The golden rule is to **always open *one* issue for *one* bug**. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
+
+- type: textarea
+  attributes:
+    label: Issue description
+    description: |
+      Describe your issue briefly. What doesn't work, and how do you expect it to work instead?
+      You can include images or videos with drag and drop, and format code blocks or logs with <code>```</code> tags.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: |
+      List of steps or sample code that reproduces the issue. Having reproducible issues is a prerequisite for contributors to be able to solve them.
+      If you include a minimal reproduction project below, you can detail how to use it here.
+  validations:
+    required: true
+
