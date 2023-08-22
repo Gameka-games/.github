@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a bug in Gameka
+description: Report a bug in this project
 body:
 
 - type: markdown
