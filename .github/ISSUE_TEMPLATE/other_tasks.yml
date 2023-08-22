@@ -5,7 +5,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      - When submitting issues to request for enhancements and other changes, you'll make our life simpler (and the fix will come sooner) if you follow the guidelines in this template.
+      - When submitting issues to request for enhancements and other changes, you'll make our life simpler (and the task will be done sooner) if you follow the guidelines in this template.
       - Write a descriptive issue title above.
       - The golden rule is to **always open *one* issue for *one* request**. If you have several requests and want to submit them, make sure to create one new issue for each of them.
 
